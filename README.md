@@ -36,7 +36,6 @@ To use this script, you need to have the following:
 - Python 3.8 or higher
 - A Telegram account
 - API credentials from Telegram (API ID and API Hash)
-- An account with OpenAI to use their GPT bot
 
 ### Installation
 
@@ -54,7 +53,7 @@ To use this script, you need to have the following:
     ```
 
 3. **Set Up API Credentials:**  
-   You need to set up your API credentials for both Telegram and OpenAI. You can find the instructions for obtaining these credentials in the respective documentation of Telegram and OpenAI.
+   You need to set up your API credentials for Telegram. You can find the instructions for obtaining these credentials in the respective documentation of Telegram.
 
 ### Configuration
 
@@ -63,7 +62,6 @@ Update the script `tg_comments.py` with your API credentials:
 ```python
 api_id = "your_api_id"
 api_hash = "your_api_hash"
-openai_api_key = "your_openai_api_key"
 ```
 
 ### Running the Script
@@ -93,7 +91,7 @@ The script will start monitoring your "Favorites" chat for any links to Telegram
 
 If you encounter any issues while using the script, here are some common troubleshooting steps:
 
-- **Check API Credentials:** Ensure that your API ID, API Hash, and OpenAI API key are correct.
+- **Check API Credentials:** Ensure that your API ID and API Hash are correct.
 - **Internet Connection:** Make sure your internet connection is stable.
 - **Script Errors:** If there are any errors in the script, refer to the error message for more details and fix the mentioned issues.
 
