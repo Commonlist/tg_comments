@@ -69,6 +69,8 @@ openai_api_key = "your_openai_api_key"
 To start the script, simply run:
 ```bash
 python tg_comments.py
+or
+nohup python tg_comments.py
 ```
 The script will start monitoring your "Favorites" chat for any links to Telegram posts.
 
